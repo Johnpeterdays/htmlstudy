@@ -1,0 +1,82 @@
+﻿<!DOCTYPE HTML>  <!-- código html5: HTML É UMA LINGUAGEM DE MARCAÇÃO E NÃO DE MARCAÇÃO, PADRONIZA TODO O DESENV. WEB --> 
+<html lang= "en"> <!-- <> <-ISTO É UMA TAG, POSSUI INICIO E FIM; DETERMINA ESPAÇO DO ELEMENTO--> 
+<head>
+	<!-- AS METATAGS MAIS IMPORTANTES -->
+	<meta charset="utf-8"> <!-- UTF-8 é a página de código universal para internacionalização e é capaz de codificar todo o conjunto de caracteres Unicode rodar os acentos e cecidilhas certos(pesquisar mais a fundo) --> 
+	<title>test1</title>  
+	<!-- Título do site em questão/cabeçalho --> 
+	<!--	Para estilizar os elementos HTML na página, você pode escrever o código CSS diretamente no cabeçalho do site, que é chamado de CSS interno. Mas, ter um css externo é mais recomendado -->
+	<meta name="description" content="a página"> <!-- descrição da página -->
+	<meta name="keywords" content="page, página, teste, test"> <!-- palavras chaves da página -->
+	<meta name="viewport" content="width=device-width, intial-sacale-1.0"> <!-- navegador detectar dispositivos mobile e rederizar a página do jeito certo-->
+	<link rel='stylesheet' href="main.css"> 
+
+</head>
+<body>
+		<!-- Agora vamos fazer a construção do corpo do site -->
+	<h1> Hello world </h1> <!-- cabeçalho/TÍTULO (QUANTO MAIS H'S NO HTML DIMINUI A FONTE)-->
+	<p id="msg"> That a test text. </p> <!-- paragráfo -->
+	<l1>Line of the text.</l1>
+	<l2>This <a href='https://www.microsoft.com/pt-br/microsoft-365/access'> link </a> go a site, access now</l2>
+	<!-- <a> atriniu a um elemento uma ancora utilizando o elemento href (link) para redirecionar para outro canto -->
+	<img src="slide.png" alt="imagem de uma família">
+	<img src="https://cdnb.artstation.com/p/assets/images/images/042/887/719/large/josperd-josperd.jpg?1635728978" alt="um idiota kkkkkk"> <!--adiciona uma imagem do servidor ou dentro da pasta e o alt explica a imagem caso ela não apareça -->
+	<ul>
+			<li class="list">Add visual style.</li> <!--elemento de lista-->
+			<li class="list">Add light and dark theme.</li>
+			<li>Enable switching the theme.</li>
+	</ul>
+	<ul style="list-style:circle;"> <!--style já é css e põe o tipo de bolinha da lista-->
+			<li class="list">Add visual style.</li> <!--elemento de lista-->
+			<li class="list">Add light and dark theme.</li>
+			<li>Enable switching the theme.</li>
+	</ul>
+	<ul style="list-style:none;"> <!--style já é css e põe o tipo de bolinha da lista-->
+			<li class="list">Add visual style.</li> <!--elemento de lista-->
+			<li class="list">Add light and dark theme.</li>
+			<li>Enable switching the theme.</li>
+	</ul>
+	<ol>
+			<li>meme</li> <!--elemento de lista-->
+			<li>banana</li>
+			<li>ovoli>
+	</ol>
+	<ol type="a"> 
+			<li>meme</li> 
+			<li>banana</li>
+			<li>ovoli>
+	</ol>
+	<ol type="I"> <!--type especifica o tipo de lista I: numeros gregos a: letras-->
+			<li>ELMENTO</li> <!--elemento de lista-->
+			<li>VAVJDJ</li>
+			<li>RAVIOLI</li>
+	</ol>
+
+<!--ol: ordenerd list (lista ordenada) ul: undenerd list (lista não ordenada)-->
+<!--	Um atributo de ID (usado no <p>) pode ser empregado para estilizar um elemento, enquanto o atributo de classe (usado no <li>)
+	é usado para estilizar todos os elementos da mesma classe. -->
+	<table border="1"> <!-- Criação de tabelas + atributo borda --> <!-- -->
+		<tr> <!-- table 'roll' adcionar uma linha-->
+			<caption>ROUPAS DA NERDJOSPERDSTORE</caption> <!-- título/legenda da tabela -->
+			<th>nome</th> <!-- Propiedades da tebela: table header -->
+			<th>produto</th>
+			<th>tamanho</th>
+			<th>cor</th> 
+		</tr>
+		<tr>
+			<td>Camisa Josperd e seus amigos</td> <!-- table data; os dados/ Elementos da tebela-->
+			<td>Roupa</td>
+			<td>G</td>
+			<td>Preta</td>
+		</tr>
+		<tr> 
+			<td>Camisola dos machos</td>
+			<td>Roupa</td>
+			<td>P</td>
+			<td>Rosa</td>
+		</tr>
+	</table>
+</body>
+
+</html>
+

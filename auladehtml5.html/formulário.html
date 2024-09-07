@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="envio.php" method="GET"> <!-- formulário; action: onde vai pegar ou colocar a informação; GET: pega a informação no banco de dados/ POST: coloca a informação, posta -->
+        <input type="text" name="nome"> <!-- input: campo que colocara a informação; type: tipo de input; name: referencia o conteudo e atrela o que é a informação se trata no banco -->
+        <br> <!--  pelo input ser um elemento em linha temos que adicionar um elemento de quebra de linha/pular linha/ breake rows-->
+        <input type="text" name="nome" value="digite aqui..."> <!--  value já o atribui um valor escrito que pode ser apagado ou editado-->
+        <br>
+        <input type="text" name="nome" placeholder="digite aqui..."> <!--  placeholder já não tem disto é escondido só para falar o que é para escrever e quando escrito o que está atrás desaparece-->
+        <br>
+         <input type="text" name="nome" value="digite aqui..." readonly> <!--  parecido com value, mas o valor não pode ser alterado-->
+        <br>
+        <input type="text" name="nome" value="desabilitado" disabled> <!--  Quando o envio não pode ser enviado/ perdido, campo desabilitado-->
+        <br>
+        <input type="text" name="nome" placeholder="digite aqui..." maxlength="5"> <!-- maxlength limita a quantidade de digitos -->
+        <br>
+        <input type="checkbox" name="carro"> Eu tenho um carro.
+        <br>
+        Data de nascimento: <input type="date" name="aniversário">
+        <br>
+        Gênero:
+        <br>
+        <input type="radio" value="masculino"> masculino
+        <input type="radio" value="feminino"> feminino
+        <input type="radio" value="outros"> outros
+        <br>
+        <textarea rows=4 cols="5"></textarea> <!-- adicionar comentario/texto; quant. rows= linhas; quant. cols= colunas  -->
+        <br>
+        <input type="password" value="senha"> outros
+        <br>
+        <input type="submit" value="enviar">
+        <input type="submit" value="cancelar">
+        
+    </form>
+
+</body>
+</html>
